@@ -6,13 +6,13 @@ In this paper, we propose a transformer-based model to achieve the task of grey-
 
 ## Results presentation 
 
-> ![Results](.\Figure\Result.jpg)
+> ![Results](https://github.com/UniqueZhao/TransColor/blob/main/Figure/FlowChart.jpg?raw=true)
 >
 > </p>Compared with the state-of-the-art methods, we can improve the coloring effect, make the synthetic image more realistic and have better feature representation ability.  <br>
 
 ## FlowChart
 
-> ![FlowChart](.\Figure\FlowChart.jpg)
+> ![FlowChart](https://github.com/UniqueZhao/TransColor/blob/main/Figure/Result.jpg?raw=true)
 >
 > Flowchart of TransColor can be viewed as the following four steps: (1) Segment reference image and original image into patches, and generate patch sequences by linear projection, (2) feed original image sequence with CAPE and reference image sequence with SAPE into style Transformer encoder, respectively, (3) stylise content sequence according to style sequence in multi-layer Transformer decoder, and (4) obtain synthetic image with real physical colors using 3-layer CNN decoder.
 
